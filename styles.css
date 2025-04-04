@@ -1,0 +1,60 @@
+/* Optional styling for different elements */
+.dynamic-div { background: #ffe08a; padding: 10px; margin: 5px; }
+.dynamic-p { color: #4a5568; border-left: 4px solid #4299e1; padding: 8px; }
+.dynamic-span { background: #c6f6d5; padding: 4px 8px; border-radius: 4px; }
+.dynamic-button { background: #63b3ed; color: white; padding: 6px 12px; border: none; }
+.dynamic-heading { color: #2d3748; border-bottom: 2px solid #e53e3e; }
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.box {
+    transition: background-color 0.3s ease;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dynamic-element {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
